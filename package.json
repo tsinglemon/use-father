@@ -1,0 +1,34 @@
+{
+  "name": "use-father",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "scripts": {
+    "doc:dev": "father doc dev",
+    "dist:dev": "father build --watch",
+    "test": "father test",
+    "doc:build": "father doc build",
+    "dist:build": "father build"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "father": "^2.29.2"
+  },
+  "authors": {
+    "name": "tsinglemon",
+    "email": "jm0009@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsinglemon/use-father"
+  },
+  "license": "MIT"
+}
