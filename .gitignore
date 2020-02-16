@@ -4,3 +4,4 @@ dist
 .umi
 yarn.lock
 yarn-error.log
+.idea
