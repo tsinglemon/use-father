@@ -9,7 +9,7 @@ export default class Input extends Component {
   render() {
     return(
       <Fragment>
-        <input type="text"/>
+        <input type="text" placeholder={'@cloud/use-father'}/>
       </Fragment>
     )
   }

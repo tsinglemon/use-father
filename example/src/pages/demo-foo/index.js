@@ -1,4 +1,4 @@
-import {Foo, Input} from 'use-father';
+import {Foo, Input} from '@cloud/use-father';
 
 export default function () {
   return (
